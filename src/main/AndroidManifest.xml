@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jfinkelstudio.login">
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_journal_100px"
+        android:roundIcon="@mipmap/ic_launcher_journal_round"
+        android:supportsRtl="true"
+        android:label="@string/Note_Pad_App"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".CreateNoteActivity"
+            android:theme="@style/AppTheme.FadeOutTranslucentTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+        <activity
+            android:name=".ViewNoteActivity"
+            android:theme="@style/AppTheme.FadeOutTranslucentTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+    </application>
+
+</manifest>

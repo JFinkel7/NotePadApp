@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "312667069099",
+    "firebase_url": "https://fir-login-fa071.firebaseio.com",
+    "project_id": "fir-login-fa071",
+    "storage_bucket": "fir-login-fa071.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312667069099:android:55b023041809f4b1",
+        "android_client_info": {
+          "package_name": "com.jfinkelstudio.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312667069099-g483omk7bd9ei5kq9i4vlh4n4a8v5e39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jfinkelstudio.login",
+            "certificate_hash": "02d51060810bfa232e0e572f5888aca2411ce370"
+          }
+        },
+        {
+          "client_id": "312667069099-47qmghcso8vik8fk76qk7h1d8q1gpj56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jfinkelstudio.login",
+            "certificate_hash": "54df04b766771a9fae0721e64800cc20fcfb0178"
+          }
+        },
+        {
+          "client_id": "312667069099-kuh02qfij846jedklut17h1s2n39s311.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3YH8HdF9jA8AQ9yV_Ow9cxZRD2k_cDZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312667069099-kuh02qfij846jedklut17h1s2n39s311.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

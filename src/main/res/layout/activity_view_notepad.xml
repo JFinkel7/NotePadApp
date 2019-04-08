@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".ViewNoteActivity">
+
+
+    <TextView
+        android:id="@+id/edTxt_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="@string/Title"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="2dp"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textColorHint="@color/Silver"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/edTxt_Topic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnViewNote"
+        android:layout_below="@id/edTxt_Title"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/orange_Beige"
+        android:gravity="top|start"
+        android:hint="@string/saved_note"
+        android:maxLines="25"
+        android:overScrollMode="always"
+        android:padding="25dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/black_Smoke1"
+        android:textDirection="ltr"
+        android:textSize="18sp"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btnViewNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/paperBlueDark_0"
+        android:elevation="4dp"
+        android:text="@string/View_Notes"
+        android:textColor="@color/blue_CyanWhite"
+        android:textSize="20sp"
+
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_Create_Note"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:orientation="vertical"
+    tools:context=".CreateNoteActivity">
+
+    <EditText
+        android:id="@+id/edTxt_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="@string/Title"
+        android:inputType="textPersonName"
+        android:background="@android:color/transparent"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="2dp"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textColorHint="@color/Silver"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edTxt_Topic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnSaveNote"
+        android:layout_below="@id/edTxt_Title"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/paperWhite_0"
+        android:gravity="top|start"
+        android:padding="25dp"
+        android:hint="@string/Summary"
+        android:inputType="textMultiLine"
+        android:maxLines="25"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/black_Smoke1"
+        android:textDirection="ltr"
+        android:textSize="18sp"
+        tools:ignore="Autofill" />
+
+
+    <Button
+        android:id="@+id/btnSaveNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/paperBlueDark_0"
+        android:elevation="4dp"
+        android:onClick="btn_SaveNote"
+        android:text="@string/Save_Note"
+        android:textAlignment="center"
+        android:textColor="@color/Azure"
+        android:textSize="19.5sp"
+        android:textStyle="bold" />
+</RelativeLayout>

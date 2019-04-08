@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main_menu_CardView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridLayout
+        android:id="@+id/activity_main_menu_GridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_vertical"
+        android:alignmentMode="alignBounds"
+        android:background="@drawable/login_gradient_items"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:rowCount="1">
+
+        <!-- Create Note Button -->
+        <Button
+            android:id="@+id/btnCreateNote"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_button_aqua"
+            android:elevation="5dp"
+            android:onClick="user_CreateNote"
+            android:text="@string/Create_Note"
+            android:textColor="@color/blue_TealLight"
+            android:textSize="18sp" />
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_rowWeight="0.5"
+            android:layout_columnWeight="0.5"
+            android:layout_margin="10dp"
+            android:background="@drawable/border_button_aqua"
+            android:elevation="5dp"
+            android:onClick="user_LogOut"
+            android:text="@string/Log_Out"
+            android:textColor="@color/red_Dark"
+            android:textSize="20sp" />
+
+        <!-- View Note Button -->
+        <Button
+            android:id="@+id/btnViewNote"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/border_button_aqua"
+            android:elevation="5dp"
+            android:onClick="user_ViewNote"
+            android:text="@string/View_Notes"
+            android:textColor="@color/blue_TealLight"
+            android:textSize="18sp" />
+
+    </GridLayout>
+
+
+</android.support.v7.widget.CardView>
